@@ -5,10 +5,10 @@ using namespace std;
 int main (){
     double berat, tinggi, imt;
 
-    cout << "masukkan berat badan: ";
+    cout << "masukkan berat badan: "; //dalam kg (penulisan koma dalam titik (.))
     cin>> berat;
 
-    cout << "masukkan tinggi badan: ";
+    cout << "masukkan tinggi badan: "; //dalam m (penulisan koma dalam titik (.))
     cin >> tinggi;
 
     imt = berat/(tinggi*tinggi);
